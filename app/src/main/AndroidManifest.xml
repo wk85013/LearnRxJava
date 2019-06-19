@@ -11,17 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Main10Activity">
+        <activity android:name=".MainOtherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main9Activity">
-
-        </activity>
-        <activity android:name=".Main8Activity"></activity>
+        <activity android:name=".Main10Activity" />
+        <activity android:name=".Main9Activity"></activity>
+        <activity android:name=".Main8Activity" />
         <activity android:name=".Main7Activity" />
         <activity android:name=".Main6Activity" />
         <activity android:name=".Main4Activity" />
